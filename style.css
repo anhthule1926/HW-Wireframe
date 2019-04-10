@@ -1,0 +1,70 @@
+header, nav, section, aside, footer {background: #ebebeb}
+
+body {
+    font-family: arial, 'helvetica neue', helvetica, sans-serif; 
+    font-size: 18px; 
+    color: #777; 
+    background: #777; 
+    width: 960px;
+}
+
+header {
+    width: 960px; 
+    height: 104px; 
+    margin: 0 auto; 
+    margin-bottom: 12px; 
+    text-align: center; 
+}
+
+
+nav {width: 960px; 
+    height: 104px; 
+    margin: 0 auto; 
+    margin-bottom: 21px; 
+    text-align: center; 
+}
+
+.containter {width: 940px;
+    height: 96px;
+}
+
+section {width: 515px; 
+    height: 288px;
+    margin: 0 auto; 
+    margin-bottom: 21px; 
+    text-align: center; 
+    float: left; 
+}
+
+    article {width: 491px;
+        height: 189px;
+        color: #ebebeb; 
+        background: #777; 
+        margin: 60px auto
+    }
+
+        .headers {width: 446px;
+            height: 56px;
+            color: #777; 
+            background: #ebebeb; 
+            margin: 20px;
+        }
+
+        p {width: 446px;
+            height: 56px;
+            color: #777; 
+            background: #ebebeb; 
+            margin: 20px; 
+        }
+
+aside {width: 412px;
+    height: 288px; 
+    margin: 0 auto; 
+    margin-bottom: 21px; 
+    text-align: center; 
+    float: right; }
+
+footer {width: 940;
+     height: 96px; 
+     clear: both; 
+     text-align: center; }
