@@ -5,23 +5,29 @@ body {
     font-size: 18px; 
     color: #777; 
     background: #777; 
-    width: 960px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 960px
 }
 
-header {
-    width: 960px; 
-    height: 104px; 
+
+header {width: 960px; 
+    height: 55px; 
     margin: 0 auto; 
-    margin-bottom: 12px; 
-    text-align: center; 
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-top: 30px;
+    align-items: center;
+    text-align: center;
 }
-
 
 nav {width: 960px; 
-    height: 104px; 
+    height: 55px; 
     margin: 0 auto; 
-    margin-bottom: 21px; 
-    text-align: center; 
+    margin-bottom: 10px;
+    padding-top: 30px;
+    align-items: center;
+    text-align: center;
 }
 
 .containter {width: 940px;
@@ -32,15 +38,16 @@ section {width: 515px;
     height: 288px;
     margin: 0 auto; 
     margin-bottom: 21px; 
-    text-align: center; 
-    float: left; 
+    align-items: center;
+    text-align: center;
+    float: left
 }
 
     article {width: 491px;
         height: 189px;
         color: #ebebeb; 
         background: #777; 
-        margin: 60px auto
+        margin: 60px auto;
     }
 
         .headers {width: 446px;
@@ -57,14 +64,21 @@ section {width: 515px;
             margin: 20px; 
         }
 
+
 aside {width: 412px;
     height: 288px; 
     margin: 0 auto; 
     margin-bottom: 21px; 
     text-align: center; 
-    float: right; }
+    float: right;
+}
 
-footer {width: 940;
-     height: 96px; 
-     clear: both; 
-     text-align: center; }
+footer {width: 960px; 
+    height: 55px; 
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    padding-top: 30px;
+    align-items: center;
+    text-align: center;
+    clear: both;
+}
